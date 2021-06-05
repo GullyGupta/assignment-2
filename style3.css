@@ -1,0 +1,261 @@
+@font-face { font-family: font1; src: url('font1.ttf' ); }
+@font-face { font-family: font2; src: url('font2.ttf' ); }
+@font-face { font-family: italics; src: url('italic.ttf' ); }
+@font-face { font-family: machine; src: url('machine.ttf' ); }
+@font-face { font-family: large2; src: url('large2.ttf' ); }
+@font-face { font-family: large1; src: url('large1.ttf' ); }
+.header{
+    background-color: lightgray;
+}
+.image1{
+    float:right;
+    height:280px;
+    width: 30%;
+    padding: 15px;
+}
+.image2{
+    padding: 15px;
+    float:right;
+    height:280px;
+    width: 30%;
+}
+.image3{
+    padding: 15px;
+    float:right;
+    height:280px;
+    width: 30%;
+}   
+figure{
+    margin-left: -45px;
+}
+.b1{
+    padding: 20px;
+
+}
+.image1caption{
+    margin-left: 50px;
+    font-size: 30px;
+    float: left;
+    width: 31%;
+}
+.image1content{
+    margin-left: 50px;
+    font-size: 20px;
+    float: left;
+    width: 31%;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(192, 190, 190);
+}
+
+.image2caption,.image3caption {
+    margin-left: 30px;
+    font-size: 30px;
+    float: left;
+    width: 31%
+}
+.image2content,.image3content{
+    margin-left: 30px;
+    font-size: 20px;
+    float: left;
+    width: 31%;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(192, 190, 190);
+}
+.b13{ 
+    margin-left: 50px;
+    float: left;
+    color: lightskyblue;
+    font-size:19px;
+    margin-top: -5px;
+}
+.b14{
+    float: left;
+    margin-top: -2px;
+    width: max-content;
+    margin-left: 450px   ;
+}
+.b23{
+    margin-left: 60px;
+    float: left;
+    color: lightskyblue;
+    font-size:19px;
+    margin-top: -5px;
+}
+.b24{
+    margin-left: 480px;
+    float: left;
+    font-size:19px;
+    margin-top: -5px;
+}
+.b33{
+    margin-left:50px;
+    float: left;
+    color: lightskyblue;
+    font-size:19px;
+    margin-top: -5px;
+}
+.b34{
+    margin-left: 450px;
+    float: left;
+    font-size:19px;
+    margin-top: -5px;
+}
+.b4{
+    background-color: lightgray;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    margin: 110px 810px;
+    font-size: 20px;
+    padding: 20px;
+    width: max-content;
+    text-align: center;
+}
+.c1{
+    width: max-content;
+    height:max-content;
+}
+.c11{
+    font-family:large2;
+    margin: 150px;
+    font-size: 70px;
+
+}
+.c21{
+
+    width: 49%;
+    font-size: 20px;
+    float: left;
+    border-right: 5px solid rgb(231, 231, 231);
+    margin-bottom: 90px;
+}
+.c21>p{
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.c22{
+    width: 49%;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 90px;
+}
+.c22>p{
+    padding-left: 80px;
+    padding-left: 80px;
+}
+.d1{
+    float: left;
+    width: 49%;
+    height: 550px;
+    margin-left: -890px;
+}
+.d2{
+    background-image:url("s2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+    float: left;
+    width: 48%;
+}
+.d2 p{
+    font-family:large2;
+    color:white;
+    font-size:48px;
+    margin-left: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+    margin-right: 200px;
+    margin-top:200px;
+}
+.d3{
+    font-size: 20px;
+    padding: 12px;
+    margin-left: 350px;
+    background-color: black;
+    color: rgb(100, 216, 237);
+    margin-top: 30px;
+    border: 2px solid ;
+    border: 2px solid rgb(100, 216, 237);
+}
+.e1{
+    background-color:white;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    margin: 110px 810px;
+    font-size: 20px;
+    width: max-content;
+    text-align: center;
+    padding: 20px;
+}
+.f1{
+    background-color: turquoise;
+    height: 300px;
+}
+.f2{
+    padding-top: 90px;
+    padding-left:240px;
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.f3{
+    float: left;
+    background-color:turquoise;
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-left: 110px;
+    margin-top: 120px;
+}
+.g1{
+    height: 600px;
+    background-color:rgb(54, 52, 52);
+}
+.g1 .logo{
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 300px;
+    height: 40px;
+}
+.g1 .content{
+    width: 420px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 100px;
+}
+hr{
+    margin-top:100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: gold;
+}
+.g1 .content span{
+    color:turquoise
+}
+.lower{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.lower a{
+    font-family: machine;
+    text-decoration: none;
+    color: rgb(219, 215, 215);    
+    padding: 0 25px;
+    font-size: 45px;
+}
+.lower .ryt{
+    margin-right: 80px;
+    float: right;
+}
+.copyright{
+    margin-top: 60px;
+    color:gray;
+    font-size: 20px; 
+    margin-left: 80px;   
+}
+.copyright span{
+    color: white;
+}
